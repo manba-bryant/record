@@ -1,6 +1,6 @@
 [step]
 [after build&&make]
-echo 'sv_map 666' > config.cfg  ;the 'sv_map 666' is a testcase
+echo 'sv_map 666' > config.cfg 
 ./teeworlds_srv -f config.cfg
 
 
