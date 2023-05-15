@@ -1,3 +1,9 @@
+[step]
+[after build&&make]
+echo 'sv_map 666' > config.cfg  ;the 'sv_map 666' is a testcase
+./teeworlds_srv -f config.cfg
+
+
 [CVE ID]
 CVE-2023-31517
 
